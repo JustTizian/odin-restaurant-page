@@ -9,6 +9,8 @@ const homeButton = document.querySelector('#home-btn')
 const menuButton = document.querySelector('#menu-btn')
 const aboutButton = document.querySelector('#about-btn')
 
+home()
+
 homeButton.addEventListener("click", () => {contentContainer.replaceChildren(); home()})
 menuButton.addEventListener("click", () => {contentContainer.replaceChildren(); menu()})
 aboutButton.addEventListener("click", () => {contentContainer.replaceChildren(); about()})
