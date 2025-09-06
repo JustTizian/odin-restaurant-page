@@ -5,11 +5,6 @@ import about from "./about.js"
 
 const contentContainer = document.querySelector('#content')
 
-console.log("Hello World")
-home()
-menu()
-about()
-
 const homeButton = document.querySelector('#home-btn')
 const menuButton = document.querySelector('#menu-btn')
 const aboutButton = document.querySelector('#about-btn')
